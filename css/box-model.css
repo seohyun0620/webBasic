@@ -1,0 +1,23 @@
+div, span{
+  font-size: 48px;
+}
+.box1{
+  background-color: gold;
+
+}
+.box2{
+  background-color: pink;
+}
+.box3{
+  background-color: lime;
+}
+.box4{
+  background-color: aqua;
+  /* width: 600px; */
+  display: flow-root;
+
+}
+.box5{
+  float: left;
+  background-color: orange;
+}

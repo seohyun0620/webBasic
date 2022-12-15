@@ -1,0 +1,31 @@
+.box{
+  border: 10px solid red;
+  /* overflow: hidden; */
+  /* 자식이 float면 부모한테 flow-root를 줘서 자식 높이를 인식 시킴 */
+  display: flow-root;
+}
+/* .box::after{ */
+  /* 내용은 보이지 않게 하고 블록으로 만들어서 감싸게끔 보이게 함 */
+  /* display: block;
+  content:"";
+  clear: both;
+} */
+.box1{
+  background-color: gold;
+float: right;
+}
+.box2{
+  background-color: pink;
+  float:right;
+  width: 500px;
+}
+.box3{
+  background-color: lime;
+  float: right;
+  width: 300px;
+}
+.box4{
+  background-color: aqua;
+  float: left;
+  width: 70px;
+}

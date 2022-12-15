@@ -1,0 +1,25 @@
+.box{
+  border: 10px solid red;
+  position: relative;
+}
+
+.box1{
+  background-color: gold;
+}
+.box2{
+  background-color: pink;
+  position: absolute;
+  top: -12px;
+  left: -12px;
+}
+.box3{
+  background-color: lime;
+}
+.box4{
+  background-color: aqua;
+  position:fixed;
+  bottom: 100px;
+  right: 100px;
+}
+/* 뷰포트 기준으로 레이아웃 배치
+position:fixed; */
